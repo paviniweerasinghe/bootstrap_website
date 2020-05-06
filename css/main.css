@@ -1,0 +1,116 @@
+body {
+    font-family: 'Barlow Semi Condensed';font-size: 22px;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 15px #000;
+
+}
+
+.btn-primary {
+    background-color: #6648b1;    
+    border: 1px solid #6648b1;
+}
+
+.btn-primary:hover {
+    background-color: #6648b1;
+}
+
+.jumbotron {
+    padding: 1rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 50%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.gif {
+    max-width: 100%;
+}
+
+.fixed-wrap {
+    height: 5%;
+}
+
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.footer hr {
+    border-top: 2px solid #b4b4b4;
+    width: 100%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+hr {
+    border-top: 2px solid #b4b4b4;
+    width: 50%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width:768px) {
+    .carousel-caption {
+        top: 40%;
+        padding: auto;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 300%;
+        padding-bottom: .2rem;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 100%;
+        font-weight: 500;
+        text-shadow: 1px 1px 15px #000;
+    
+    }
+    
+}
